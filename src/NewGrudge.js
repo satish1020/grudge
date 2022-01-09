@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const NewGrudge = ({ onSubmit }) => {
   const [person, setPerson] = useState('');
   const [reason, setReason] = useState('');
-
+  console.log('***new grudge invoked');
   const handleChange = event => {
     event.preventDefault();
     onSubmit({ person, reason });

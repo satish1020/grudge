@@ -2,7 +2,7 @@ import React from 'react';
 
 const Grudge = ({ grudge, onForgive }) => {
   const forgive = () => onForgive(grudge.id);
-
+  console.log('*** grudge invoked');
   return (
     <article className="Grudge">
       <h3>{grudge.person}</h3>

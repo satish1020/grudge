@@ -1,6 +1,7 @@
 import React from 'react';
 import Grudge from './Grudge';
 
+//render individual grudges
 const Grudges = ({ grudges = [], onForgive }) => {
   return (
     <section className="Grudges">
